@@ -1,34 +1,57 @@
-.navbar{
-    background-color: #000000;
+section {
+    height: 100%;
 }
-/* logo tone-02 */
-#logo{
+
+.home {
+    background: url(/images/HomeBG.png) no-repeat center center;
+    min-height: calc(100vh - 50px);
+    background-size: cover;
+    color: #FDF9F9;
+}
+
+.introduction {
+    background: url(/images/tom-barrett-1WC-p1H1zqg-unsplash.png) no-repeat center center;
+    min-height: calc(100vh - 50px);
+    background-size: cover;
+}
+
+.introduction .introd {
+    color: #000;
+    padding-left: 26%;
+}
+
+.introd .header {
+    font-size: 48px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 6%;
+}
+
+.home .container {
+    margin-top: -16em;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.home h3 {
+    padding-left: 22%;
+    padding-top: 20%;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.logo:first-child {
     position: absolute;
-    /* width: 109px; */
+    width: 109px;
     height: 109px;
-    content:url("/images/logo tone-02.png");
+    /* margin-top: -1rem; */
+    padding-left: -8rem;
 }
-/* UA / EN */
-#language{
-position: absolute;
-width: 50px;
-height: 30px;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
-
-color: #FFFFFF;
-}
-/* esther-jiao-ADv0GiMBlmI-unsplash */
-
-.first-section-bg{
-width: 100%;
-height: 833.54px;
-background: url("/images/esther-jiao-ADv0GiMBlmI-unsplash\ \(1\).jpg") no-repeat;
-background-size: cover;
-position: absolute;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.introduction .logo {
+    position: relative;
+    width: 109px;
+    height: 109px;
+    margin-top: -10%;
 }
