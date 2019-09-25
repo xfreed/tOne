@@ -28,7 +28,9 @@ section {
     padding-top: 6%;
 }
 
-.home .container {
+.home .container,
+.gallery .container,
+.contact .container {
     margin-top: -16em;
     cursor: pointer;
     font-size: 18px;
@@ -53,5 +55,25 @@ section {
     position: relative;
     width: 109px;
     height: 109px;
-    margin-top: -10%;
+    margin-top: -4%;
+}
+.gallery{
+    background: url(/images/jared-rice-PibraWHb4h8-unsplash.png) no-repeat center center;
+    min-height: calc(100vh - 50px);
+    background-size: cover;
+}
+.gallery .logo{
+    margin-top: -5%;
+}
+.contact{
+    background: url(/images/grey.png) no-repeat center center;
+    min-height: calc(100vh - 50px);
+    background-size: cover;
+    color: #FDF9F9;
+}
+.contact .logo{
+    margin-top: -5%;
+}
+.contact .row{
+    margin-top: 30px;
 }
